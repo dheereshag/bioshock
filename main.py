@@ -12,11 +12,11 @@ CONFIG = {
     "input_max": Decimal("30"),
 
     # Maximum marks for each part.
-    # Example: 30 -> 15 marks in 4 parts
-    "part_max": [Decimal("2"), Decimal("3"), Decimal("7"), Decimal("3")],
+    # Example: 30 -> 30 marks in 4 parts
+    "part_max": [Decimal("8"), Decimal("7"), Decimal("8"), Decimal("7")],
 
     # If None, output_max = sum(part_max)
-    # Example: 30 -> 15 marks, so output_max becomes 15
+    # Example: 30 -> 30 marks, so output_max becomes 30
     "output_max": None,
 
     # "sequential" = fill parts in order, like your example
